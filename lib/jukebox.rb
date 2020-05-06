@@ -7,8 +7,7 @@ def help
   puts "- exit : exits this program"
 end
 def list(songs)
-  songs.each { |key, value|
-    puts "#{key}"
-  }
+  songs.each do |song|
+    
 end
 end
