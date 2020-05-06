@@ -27,10 +27,10 @@ def play(songs)
 end
 
 def exit_jukebox
-  put "Goodbey"
+  puts "Goodbey"
 end
 
-def run
+def run(command)
   loop do
   puts "Please enter a command:"
   command = gets.strip
