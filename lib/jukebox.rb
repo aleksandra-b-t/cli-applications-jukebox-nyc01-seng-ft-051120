@@ -18,9 +18,16 @@ def play(songs)
   choice = gets.strip
   
   if (1..9).to_a.index(choice.to_i) != nil
-    puts "Playing #{my_songs[choice.to_i - 1]}"
-  elsif my_songs.index(choice) != nil
+    puts "Playing #{songs[choice.to_i - 1]}"
+  elsif songs.index(choice) != nil
     puts "Playing #{choice}"
   else
     puts "Invalid input, please try again"
   end
+end
+
+def exit_jukebox
+choice = gets.strip
+if choice == "exit"
+  put "Goodbey"
+end
