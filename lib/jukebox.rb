@@ -37,9 +37,9 @@ def run(command)
   command = gets.strip
   
     if command == "list"
-    list(songs)
+    list()
     elsif command == "play"
-    play(songs)
+    play()
     elsif command == "help"
     help
     elsif command == "exit"
