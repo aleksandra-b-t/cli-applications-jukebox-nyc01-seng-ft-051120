@@ -27,7 +27,8 @@ def play(songs)
 end
 
 def exit_jukebox
-  puts "Goodbey"
+  output = ["Goodbey"]
+  puts output
 end
 
 def run(command)
