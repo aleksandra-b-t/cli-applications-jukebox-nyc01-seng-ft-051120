@@ -34,7 +34,7 @@ end
 def run(command)
   loop do
   puts "Please enter a command:"
-  command = gets.strip
+  command = gets.downcase.strip
   
     if command == "list"
     list()
