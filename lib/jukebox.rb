@@ -27,7 +27,9 @@ def play(songs)
 end
 
 def exit_jukebox
-choice = gets.strip
-if choice == "exit"
   put "Goodbey"
+end
+
+def run
+  
 end
